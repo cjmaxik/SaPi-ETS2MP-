@@ -1,18 +1,18 @@
 {
   "appName": {
-    "message": "SaPI",
+    "message": "SaPI Reborn",
     "description": "Main application name"
   },
   "appDesc": {
-    "message": "Add more info about ETS2MP users and servers", 
+    "message": "Add more info about TruckersMP users and servers", 
     "description":"Application description"
   },
   "appTitlePopup": {
-  	"message": "SaPi [ETS2MP]",
+  	"message": "SaPi [TruckersMP]",
   	"description": "Title for popup icon in browser"
   },
   "optSecShort": {
-  	"message": "sec.",
+  	"message": " sec.",
   	"description": "Short literal of seconds"
   },
   "optLabelOnline": {
@@ -28,12 +28,21 @@
   	"description": "Label for range of time update"
   },
   "optSaveButton": {
-  	"message": "Save",
-  	"description": "Name of button save"
+    "message": "Save",
+    "description": "Name of button save"
+  },
+  "optSavingScreen": {
+    "message": "Saving..."
+  },
+  "optLoadingScreen": {
+  	"message": "Loading..."
   },
   "optNewVer": {
-    "message": "Check a new version of ETS2MP",
+    "message": "Check a new version of TruckersMP",
     "description": "Label for enable|disable to check a new version"
+  },
+    "optSortServers": {
+    "message": "Sort servers by players count"
   },
   "popupStatsOfServers": {
   	"message": "Servers statistic",
@@ -83,8 +92,8 @@
     "message": "Name of Steam",
     "description": "Row header on full info modal"
   },
-  "injInfModal_ETS2MPID": {
-    "message": "ETS2MP ID",
+  "injInfModal_TruckersMPID": {
+    "message": "TruckersMP ID",
     "description": "Row header on full info modal"
   },
   "injInfModal_ForumName": {
@@ -118,5 +127,12 @@
   "ntfk_DwnldVersionContent": {
     "message": "Starting the download the new version: {0}\nSearch his in your download folder!",
     "description": "Main content in notifocation of download new version. {0} - version"
+  },
+
+  "options_OptionsLink": {
+    "message": "Options"
+  },
+  "options_HelperLink": {
+    "message": "Helper"
   }
 }

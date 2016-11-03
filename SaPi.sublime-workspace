@@ -1,0 +1,1460 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"new_",
+				"new_coords"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"rea",
+				"real_diff"
+			],
+			[
+				"real_",
+				"real_diff"
+			],
+			[
+				"Cookie",
+				"Cookie::set\tAttach a Cookie to a Response."
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"img",
+				"img-thumbnail"
+			],
+			[
+				"modal-",
+				"modal-body\t(index.blade.php)"
+			],
+			[
+				"video",
+				"videoOpen\t(index.blade.php)"
+			],
+			[
+				"is",
+				"is_prod"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"cur",
+				"cursor: 〔property〕"
+			],
+			[
+				"list",
+				"list-group-item"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"reso",
+				"resources"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"Req",
+				"Requests\t(LangController.php)"
+			],
+			[
+				"tra",
+				"trans\tblade-trans"
+			],
+			[
+				"tr",
+				"truckersmpID"
+			],
+			[
+				"small",
+				"small-12"
+			],
+			[
+				"steam_check",
+				"steam_check($needle"
+			],
+			[
+				"cs",
+				"csrfToken\t(app.blade.php)"
+			],
+			[
+				"file",
+				"file_get_contents"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"vie",
+				"viewer_id"
+			],
+			[
+				"Log",
+				"Log::info\tLog an informational message to the logs."
+			],
+			[
+				"ex",
+				"expiresAt"
+			],
+			[
+				"last",
+				"last_img"
+			],
+			[
+				"Wot",
+				"WoTDownload\t(WoTDownload.php)"
+			],
+			[
+				"vaule",
+				"value_hex"
+			],
+			[
+				"value",
+				"value_hex"
+			],
+			[
+				"images",
+				"images_json"
+			],
+			[
+				"Stora",
+				"Storage::get\tRetrieve the contents of a given file"
+			],
+			[
+				"Queu",
+				"QueueCount"
+			],
+			[
+				"if",
+				"if\tif …"
+			],
+			[
+				"map",
+				"map_servers"
+			],
+			[
+				"Cache",
+				"Cache::get\tRetrieve an Item from the Cache"
+			],
+			[
+				"emp",
+				"empty_server\t(status.php)"
+			],
+			[
+				"true",
+				"true"
+			],
+			[
+				"add",
+				"add_to_bookmark\t(app.php)"
+			],
+			[
+				"new",
+				"new_helper\t(app.php)"
+			],
+			[
+				"red",
+				"redirectModal"
+			],
+			[
+				"error",
+				"error_message\t(app.blade.php)"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"Sess",
+				"Session::flash\tFlash an Item in the Session"
+			],
+			[
+				"Cac",
+				"Cache::remember\tRetrieve item or Store a default value if it doesn't exist"
+			],
+			[
+				"re",
+				"remember"
+			],
+			[
+				"empty",
+				"empty_form\t(MainController.php)"
+			],
+			[
+				"steam",
+				"steam_id"
+			],
+			[
+				"user",
+				"user_not_found"
+			],
+			[
+				"trucker",
+				"truckersmp_check"
+			],
+			[
+				"Res",
+				"ResolveVanityURL\t(User.php)"
+			],
+			[
+				"truck",
+				"truckersmp_link\t(player.php)"
+			],
+			[
+				"stea",
+				"steam_link\t(player.php)"
+			],
+			[
+				"starts",
+				"starts_with〔function〕"
+			],
+			[
+				"filter",
+				"filter_var"
+			],
+			[
+				"no",
+				"no_bans\t(player.php)"
+			],
+			[
+				"per",
+				"personaName"
+			],
+			[
+				"view",
+				"view〔function〕"
+			],
+			[
+				"Pla",
+				"PlayerNotFoundException"
+			],
+			[
+				"Ex",
+				"Exceptions\t(PlayerNotFoundException.php)"
+			],
+			[
+				"fun",
+				"fun\tfunction …"
+			],
+			[
+				"sear",
+				"search_needle\t(index.blade.php)"
+			],
+			[
+				"scr",
+				"script\tTag"
+			],
+			[
+				"bi",
+				"bigmp_link\t(app.php)"
+			],
+			[
+				"game",
+				"gametime\t(MainController.php)"
+			],
+			[
+				"ser",
+				"server_status\t(status.php)"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"get_de",
+				"get_defined_vars"
+			],
+			[
+				"vers",
+				"versionModal\t(navbar.blade.php)"
+			],
+			[
+				"dump",
+				"dump($servers\t(MainController.php)"
+			],
+			[
+				"updaet",
+				"updateTime"
+			],
+			[
+				"update",
+				"updateTime\t(app.blade.php)"
+			],
+			[
+				"Se",
+				"Session::has\tDetermin if an Item Exists in the Session"
+			],
+			[
+				"Cahce",
+				"Cache::remember\tRetrieve item or Store a default value if it doesn't exist"
+			],
+			[
+				"servers",
+				"servers.ppl_count"
+			],
+			[
+				"Route",
+				"Route::controllerAction\tBasic route to a controller action."
+			],
+			[
+				"tru",
+				"truckersmp_id\t(routes.php)"
+			],
+			[
+				"php",
+				"php-getset\tCreate getter and setter methods"
+			],
+			[
+				"data-",
+				"data-reveal"
+			],
+			[
+				"version",
+				"versionModal\t(version.twig)"
+			],
+			[
+				"stop",
+				"stopVideo"
+			],
+			[
+				"vi",
+				"videoModalOpen"
+			],
+			[
+				"vide",
+				"videoModal"
+			],
+			[
+				"vid",
+				"videoModal"
+			],
+			[
+				"else",
+				"else\tTwig : Else"
+			],
+			[
+				"set",
+				"set\tTwig : Set"
+			],
+			[
+				"inc",
+				"include\tTwig : Include"
+			],
+			[
+				"for",
+				"for\tTwig : For"
+			],
+			[
+				"uk-ico",
+				"uk-icon-justify\t(search-widget.twig)"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"uk-fo",
+				"uk-form-width-large \tUIkit class"
+			],
+			[
+				"hep",
+				"help-version"
+			],
+			[
+				"uk-wi",
+				"uk-width-1-3 \tUIkit class"
+			],
+			[
+				"uk-text",
+				"uk-text-contrast\t(home.twig)"
+			],
+			[
+				"uk-nav",
+				"uk-navbar-nav"
+			],
+			[
+				"uk-c",
+				"uk-container \tUIkit class"
+			],
+			[
+				"dis",
+				"displayErrorDetails\t(Container.php)"
+			],
+			[
+				"full",
+				"full_url\t(app.php)"
+			],
+			[
+				"progress",
+				"progress-meter"
+			],
+			[
+				"eee",
+				"eee"
+			],
+			[
+				"bs",
+				"bs3-col\tbs3-col"
+			],
+			[
+				"options",
+				"options"
+			],
+			[
+				"mdl-la",
+				"mdl-layout__drawer-button"
+			],
+			[
+				"nav",
+				"navigation"
+			],
+			[
+				"na",
+				"navigation"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"parse",
+				"parse_ini_file\t(index.php)"
+			],
+			[
+				"date",
+				"date_inline"
+			],
+			[
+				"cop",
+				"component"
+			],
+			[
+				"com",
+				"component"
+			],
+			[
+				"data",
+				"dataview\t(index.tmpl)"
+			],
+			[
+				"incl",
+				"incl1\tinclude_once …"
+			],
+			[
+				"pu",
+				"public_html"
+			],
+			[
+				"game_",
+				"game_time\t(cron_mp.php)"
+			],
+			[
+				"time",
+				"time"
+			],
+			[
+				"ech",
+				"echo\techo \"…\""
+			],
+			[
+				"pro",
+				"proxy\t(index.php)"
+			],
+			[
+				"wot",
+				"wot_file"
+			],
+			[
+				"image",
+				"images_json"
+			],
+			[
+				"var_expo",
+				"var_export\t(cron_mp.php)"
+			],
+			[
+				"tri",
+				"trigger_error(\"Новая"
+			],
+			[
+				"be",
+				"beta_version"
+			],
+			[
+				"su",
+				"supported_game_version"
+			],
+			[
+				"var",
+				"var_export\t(cron.php)"
+			],
+			[
+				"acc",
+				"access_token"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "reveal",
+		"selected_items":
+		[
+			[
+				"reveal",
+				"File: Reveal"
+			],
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"qui",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"quick",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"blade",
+				"Set Syntax: Laravel Blade"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"pull",
+				"Git: Pull Current Branch"
+			],
+			[
+				"custo",
+				"Git: Custom Command"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Gui"
+			],
+			[
+				"gu",
+				"Git: Gui"
+			],
+			[
+				"co",
+				"Git: Commit"
+			],
+			[
+				"all",
+				"Git: Add All"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"add all",
+				"Git: Add All"
+			],
+			[
+				"git un",
+				"Git: Reset (unstage) All"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git commi",
+				"Git: Commit"
+			],
+			[
+				"gui",
+				"Git: Gui"
+			],
+			[
+				"git push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git all",
+				"Git: Add All"
+			],
+			[
+				"git ",
+				"Git: Commit"
+			],
+			[
+				"git init",
+				"Git: Init"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"qu",
+				"Git: Quick Commit"
+			],
+			[
+				"q",
+				"Git: Quick Commit"
+			],
+			[
+				"git a",
+				"Git: Add All"
+			],
+			[
+				"git cus",
+				"Git: Custom Command"
+			],
+			[
+				"git cmd",
+				"Git: Custom Command"
+			],
+			[
+				"git remo",
+				"Git: Track Remote Branch"
+			],
+			[
+				"stas",
+				"Git: Stash Apply"
+			],
+			[
+				"git add .",
+				"Git: Add..."
+			],
+			[
+				"twig",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"twi",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"git add ",
+				"Git: Add All"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"bloc",
+				"Snippet: block (block)"
+			],
+			[
+				"block",
+				"Snippet: block"
+			],
+			[
+				"ext",
+				"Snippet: extends"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"tra",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"t",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"de",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"paca",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"htl",
+				"BracketHighlighter: Jump to Left Bracket"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"TABs",
+				"View: Toggle Tabs"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"TAB",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"DE",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"apa",
+				"Set Syntax: Apache Conf"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"rdele",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"dele",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"code",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"scope",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"mik",
+				"Set Syntax: Mikrotik Script"
+			],
+			[
+				"remoce",
+				"Package Control: Remove Package"
+			],
+			[
+				"PHP",
+				"Set Syntax: PHP"
+			],
+			[
+				"remve",
+				"BracketHighlighter: Remove Brackets"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"package con",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"pac",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"m",
+				"Minify Javascript"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packac up",
+				"Package Control: Upgrade/Overwrite All Packages"
+			]
+		],
+		"width": 740.0
+	},
+	"console":
+	{
+		"height": 308.0,
+		"history":
+		[
+			"cls",
+			"clr",
+			"?",
+			"help",
+			"clear"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/G/Maxim/GIT_Projects/TruckersMP/SaPi-Reborn"
+	],
+	"file_history":
+	[
+		"/G/OpenServer/domains/heatmap.lol/index.php",
+		"/G/OneDrive/ETS2MP/STREAM/StreamMix/files/widget_bigmp.html",
+		"/G/OpenServer/domains/help.bigmp.local/config/app.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/new/layout/navbar.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/app/Http/Controllers/MainController.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/old/layout/navbar.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/app/Http/Controllers/SearchController.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/ru/app.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/de/status.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/pl/status.php",
+		"/C/Users/djcjm/AppData/Local/Temp/Temp1_status files.zip/pl status/status.php",
+		"/C/Users/djcjm/AppData/Local/Temp/Temp1_status files.zip/de status/status.php",
+		"/G/OpenServer/domains/stream.lal/chat/js/chat.js",
+		"/G/OpenServer/domains/stream.lal/chat/js/shared.js",
+		"/G/OpenServer/domains/stream.lal/chat/index.html",
+		"/G/openserver/domains/stream.lal/viewers/index.html",
+		"/G/OpenServer/domains/help.bigmp.local/resources/assets/old/less/flags.less",
+		"/G/OpenServer/domains/help.bigmp.local/.env",
+		"/G/OpenServer/domains/help.bigmp.local/config/cache.php",
+		"/G/OpenServer/domains/help.bigmp.local/config/session.php",
+		"/G/OpenServer/domains/help.bigmp.local/gulpfile.js",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/old/layout/app.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/ua/player.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/new/servers/card.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/ua/status.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/ua/app.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/es/app.php",
+		"/G/OpenServer/domains/help.bigmp.local/app/Http/Controllers/SkinController.php",
+		"/G/OpenServer/domains/help.bigmp.local/vendor/laravel/framework/src/Illuminate/Support/Facades/Cookie.php",
+		"/G/OpenServer/domains/help.bigmp.local/vendor/symfony/http-foundation/Cookie.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/new/layout/footer.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/xbr/search.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/assets/new/less/app.less",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/xbr/player.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/xbr/app.php",
+		"/G/OpenServer/domains/help.bigmp.local/vendor/symfony/translation/Translator.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/new/servers/status.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/vendor/laravel/framework/src/Illuminate/Support/Collection.php",
+		"/G/OpenServer/domains/stream.lal/server/index.html",
+		"/G/OpenServer/domains/help.bigmp.local/app/Http/Controllers/LangController.php",
+		"/G/OpenServer/domains/help.bigmp.local/vendor/symfony/translation/PluralizationRules.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/new/modal/player.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/pl/app.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/el/app.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/en/app.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/de/app.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/new/main/index.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/ru/player.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/en/player.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/assets/old/js/app.js",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/new/modal/error.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/assets/new/js/app.js",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/new/layout/app.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/en/status.php",
+		"/G/OpenServer/domains/help.bigmp.local/app/Http/Middleware/LangSelector.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/new/layout/header.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/assets/new/js",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/xbr/status.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/assets/new/less/pace.less",
+		"/G/OpenServer/domains/help.bigmp.local/resources/assets/new/app.css",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/es/status.php",
+		"/G/Maxim/Desktop/111111111111111.torrent",
+		"/C/Users/djcjm/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/br/status.php",
+		"/E/Maxim/Downloads/status.ru.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/old/servers/status.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/old/layout/footer.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/old/layout/header.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/routes/web.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/layout/header.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/layout/navbar.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/layout/app.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/vendor/laravel/framework/src/Illuminate/Session/Store.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/old/main/index.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/assets/less/flags.less",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/servers/status.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/el/search.php",
+		"/G/OpenServer/domains/help.bigmp.local/app/Helpers/CheckFunctions.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/main/index.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/public/robots.txt",
+		"/G/OpenServer/domains/help.bigmp.local/.gitlab-ci.yml",
+		"/G/OpenServer/domains/help.bigmp.local/.gitlab-ci.sh",
+		"/G/OpenServer/domains/help.bigmp.local/vendor/syntax/steam-api/src/Syntax/SteamApi/Facades/SteamApi.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/ru/search.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/en/search.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/assets/js/app.js",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/modal/error.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/layout/footer.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/app/Console/Commands/WoTDownload.php",
+		"/G/OpenServer/domains/help.bigmp.local/app/Console/Kernel.php",
+		"/G/OpenServer/domains/help.bigmp.local/config/debugbar.php",
+		"/G/OpenServer/domains/help.bigmp.local/storage/logs/laravel-2016-10-26.log",
+		"/G/OpenServer/domains/help.bigmp.local/storage/app/public/wot/last.txt",
+		"/G/OpenServer/domains/help.bigmp.local/routes/console.php",
+		"/G/OpenServer/domains/help.bigmp.local/app/Providers/AppServiceProvider.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/ru/status.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/el/status.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/servers/card.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/assets/less/app.less",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/modal/player.blade.php",
+		"/G/OpenServer/domains/checkbans.lol/queue/index.php",
+		"/G/OpenServer/domains/help.bigmp.local/phpunit.xml",
+		"/G/OpenServer/domains/help.bigmp.local/.env.testing",
+		"/G/OpenServer/domains/help.bigmp.local/public/manifest.json",
+		"/G/OpenServer/domains/help.bigmp.local/resources/assets/css/flags.css",
+		"/G/OpenServer/domains/help.bigmp.local/public/js/all.js",
+		"/G/OpenServer/domains/help.bigmp.local/.gitignore",
+		"/G/OpenServer/domains/help.bigmp.local/tests/MainTest.php",
+		"/G/OpenServer/domains/help.bigmp.local/tests/TestCase.php",
+		"/G/OpenServer/domains/help.bigmp.local/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithPages.php",
+		"/G/OpenServer/domains/help.bigmp.local/tests/ExampleTest.php",
+		"/G/OpenServer/domains/help.bigmp.local/composer.json",
+		"/G/OpenServer/domains/help.bigmp.local/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php",
+		"/G/Maxim/GIT_Projects/PHP/api.bigmp.ru/cron/vendor/Facebook/Facebook.php",
+		"/G/OpenServer/domains/help.bigmp.local/.git/config",
+		"/G/Maxim/GIT_Projects/PHP/api.bigmp.ru/cron/vendor/Facebook/polyfills.php",
+		"/G/Maxim/GIT_Projects/PHP/api.bigmp.ru/cron/vendor/Facebook/autoload.php",
+		"/E/Maxim/Downloads/GAMES/strashilki/options.cfg",
+		"/E/Maxim/Downloads/GAMES/strashilki/exceptions.pyc",
+		"/G/OpenServer/domains/help.bigmp.local/config/bugsnag.php",
+		"/G/OpenServer/domains/help.bigmp.local/vendor/bugsnag/bugsnag-laravel/src/Facades/Bugsnag.php",
+		"/G/OpenServer/domains/help.bigmp.local/app/Notifications/ErrorNotification.php",
+		"/G/OpenServer/domains/help.bigmp.local/app/Http/Controllers/Controller.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/lang/el/player.php",
+		"/G/OneDrive/ETS2MP/ets2mp_homepage/en/admin.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/errors/500.blade.php",
+		"/G/OpenServer/domains/help.bigmp.local/resources/views/errors/503.blade.php",
+		"/E/Maxim/Downloads/dump.sql"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"D:\\OneDrive\\Projects\\PHP",
+			"E:\\OneDrive\\Projects\\PHP\\*",
+			"E:\\OneDrive\\Projects\\PHP\\",
+			"E:\\OneDrive\\Projects\\PHP\\ets2mp"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"  ",
+			"imageCoords",
+			"tileSize",
+			"$real_diff",
+			"x",
+			"0px 5px 0px 0px;",
+			"streamix-files/",
+			"-ua",
+			"ua",
+			"|\n",
+			"ua",
+			"ua-",
+			"Cookie",
+			"Session",
+			"put",
+			"90",
+			" fa-fw",
+			"h3",
+			"h4",
+			"button tiny expand",
+			" role=\"tabpanel\"",
+			" role=\"presentation\" ",
+			"role=\"presentation\" ",
+			"...",
+			"carousel-example",
+			"h1",
+			"h4",
+			" columns",
+			"medium-",
+			"small-",
+			"large-",
+			"us",
+			"small",
+			"h3",
+			"empty_server",
+			"strong",
+			"medium-",
+			"medium",
+			"attr",
+			"small",
+			"large",
+			"medium-",
+			"small-",
+			"small",
+			"small-",
+			"content",
+			"md",
+			"sm",
+			"large",
+			"medium",
+			"small",
+			"small-5",
+			"medium-4",
+			"large-7",
+			"medium-12",
+			"small-12",
+			"h1",
+			"1,",
+			"locale",
+			"{\n",
+			"br",
+			"radius",
+			"locale",
+			" float-xs-right",
+			"locale",
+			"'modal.error'",
+			"6",
+			":",
+			"//",
+			"12",
+			"large",
+			"https:",
+			"h4",
+			"md5($images)",
+			"$int_link",
+			"5",
+			"kbd",
+			"dumb_road",
+			"4",
+			"queue",
+			"p",
+			",",
+			"servers",
+			"Http\\Client\\Exception\\HttpException",
+			"HttpException",
+			"-get",
+			">",
+			"el",
+			"cjmaxik",
+			"public ",
+			"gr",
+			"..",
+			"el",
+			"gr",
+			"bigmp_",
+			"_",
+			">\n",
+			"cdn",
+			"language",
+			";",
+			"case ",
+			"th",
+			">",
+			"responseText",
+			"data",
+			"with",
+			"request['",
+			"search_",
+			"',\n",
+			"num",
+			"apple",
+			"set ",
+			"\\\\",
+			"%}",
+			"{%",
+			"gametime",
+			"Session",
+			": ",
+			"supported_game",
+			"_version",
+			"\t<div class=\"small-12 columns text-center\">\n\t\t<h3>Досье на игрока</h3>\n\t\t<h5><i>Поиск: {{ search.needle }}</i></h5>\n\t\t<form id=\"ets2mpid_form\">\n\t\t\t<div class=\"large-12 columns\">\n\t\t\t\t<div class=\"row collapse\">\n\t\t\t\t\t<div class=\"small-1 columns\">\n\t\t\t\t\t\t<a class=\"button prefix radius alert\"\n\t\t\t\t\t\t\tdata-tooltip aria-haspopup=\"true\"\n\t\t\t\t\t\t\tclass=\"has-tip tip-top radius\"\n\t\t\t\t\t\t\tdata-options=\"disable_for_touch:true\"\n\t\t\t\t\t\t\ttitle=\"КАК ЭТИМ ПОЛЬЗОВАТЬСЯ???\"\n\t\t\t\t\t\t\tdata-reveal-id=\"videoModal\">\n\t\t\t\t\t\t\t\t<i class=\"fa fa-question\"></i>\n\t\t\t\t\t\t\t\t<i class=\"fa fa-question\"></i>\n\t\t\t\t\t\t\t\t<i class=\"fa fa-question\"></i>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"small-10 columns\">\n\t\t\t\t\t\t<input type=\"text\" placeholder=\"Truckers MP ID, SteamID или ссылка на профиль Steam\" id=\"steamid\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"small-1 columns\">\n\t\t\t\t\t\t<a class=\"button postfix success radius\" id=\"ets2mpid_find\">\n\t\t\t\t\t\t\t<i class=\"fa fa-search\"></i>\n\t\t\t\t\t\t</a>\n\t\t\t\t\t</div>\n\t\t\t\t\t<small id=\"error_steamid\" class=\"error\" style=\"display:none;\">Введен некорректный SteamID</small>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</form>\n\t</div>\n",
+			">\n",
+			"\n    ",
+			"public/",
+			"}}",
+			"{{",
+			"></",
+			"<?"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/D/",
+			"#BD3513",
+			"<br />"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 89.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 114.0
+	},
+	"output.scope_viewer":
+	{
+		"height": 98.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 114.0
+	},
+	"pinned_build_system": "",
+	"project": "SaPi.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"plu",
+				"vendor\\symfony\\translation\\PluralizationRules.php"
+			],
+			[
+				"pluz",
+				"vendor\\symfony\\translation\\PluralizationRules.php"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"app.js",
+				"resources\\assets\\js\\app.js"
+			],
+			[
+				"server",
+				"resources\\views\\templates\\server_status.twig"
+			],
+			[
+				"ind",
+				"public\\index.php"
+			],
+			[
+				"app.php",
+				"config\\app.php"
+			],
+			[
+				"header",
+				"resources\\views\\templates\\header.twig"
+			],
+			[
+				"news",
+				"resources\\views\\templates\\news.twig"
+			],
+			[
+				"app",
+				"public\\css\\app.css"
+			],
+			[
+				"boot",
+				"app\\bootstrap.php"
+			],
+			[
+				"app.",
+				"config\\app.php"
+			],
+			[
+				"routes",
+				"public\\routes.php"
+			],
+			[
+				"help",
+				"resources\\views\\partials\\help-hero.twig"
+			],
+			[
+				".twig",
+				"resources\\views\\templates\\navbar.twig"
+			],
+			[
+				"defa",
+				"resources\\views\\templates\\default.twig"
+			],
+			[
+				"inde",
+				"resources\\views\\index.twig"
+			],
+			[
+				"stream",
+				"vendor\\monolog\\monolog\\src\\Monolog\\Handler\\StreamHandler.php"
+			],
+			[
+				"error",
+				"vendor\\slim\\slim\\Slim\\Handlers\\Error.php"
+			],
+			[
+				"conta",
+				"vendor\\slim\\slim\\Slim\\Container.php"
+			],
+			[
+				"/conta",
+				"vendor\\slim\\slim\\Slim\\Container.php"
+			],
+			[
+				"get",
+				"vendor\\slim\\twig-view\\src\\TwigExtension.php"
+			],
+			[
+				".css",
+				"web\\assets\\css\\styles.css"
+			],
+			[
+				"js",
+				"js\\work\\js.js"
+			],
+			[
+				"upda",
+				"mibew\\libs\\classes\\Mibew\\Maintenance\\Updater.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/E/OneDrive/Projects/PHP/faq-ets2mp/faq-ets2mp.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 571.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

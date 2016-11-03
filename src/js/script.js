@@ -1,17 +1,19 @@
 /*!
- * Servers & Users Info [ETS2MP]
- * https://github.com/jackrv/Player-Info--ETS2MP-
+ * Servers & Users Info [TruckersMP]
+ * https://github.com/cjmaxik/SaPi-Reborn
  *
- * Copyright © jackrv (aka Красный) [special for ets2mp.ru]
+ * Source code: Copyright © jackrv (aka Красный) [special for TruckersMP.ru]
  * Creative Commons «Attribution-ShareAlike (CC BY-SA)
  *
- * Last Edit: 17/04/2015
+ * Forked and reborned by CJMAXiK [special for bigmp.ru]
+ *
+ * Last Edit: 03/11/2016
  */
 // ==================================================================================
 include(chrome.extension.getURL('/js/inject.js'));
 
 
-var $tElement, JSON, _URL, _STEAMID, _ETS2MPID, _PERSONALNAME;
+var $tElement, JSON, _URL, _STEAMID, _TruckersMPID, _PERSONALNAME;
 
 /**
  * Include js-code to user-profile pages:
@@ -25,7 +27,7 @@ function include(url) {
 
 /**
  * While all DOM loaded - run addInfo function
- * for add info about ETS2MP-user
+ * for add info about TruckersMP-user
 */
 $(document).ready(function() {
 	setTimeout(function() {
@@ -41,7 +43,7 @@ $(document).ready(function() {
  * @return {json} Load json-data into global variable JSON
  */
 function getUserInfo(id, callback){
-	var url = "http://api.ets2mp.com/player/" + id;
+	var url = "https://api.truckersmp.com/v2/player/" + id;
 	$.getJSON(url, function (data) {
 		callback.call(data);
 		JSON = data.response;
@@ -49,26 +51,25 @@ function getUserInfo(id, callback){
 }
 
 /**
- * This function load user page (example: http://ets2mp.com/index.php?page=profile&id=114711)
+ * This function load user page (example: http://TruckersMP.com/index.php?page=profile&id=114711)
  * and search text "No punishments to display"  on it
  * Return False if text is found and True otherwise
  *
  * Warning!!! If fail load page - function return False also!
  *
- * @param {number} id ETS2MP ID
+ * @param {number} id TruckersMP ID
  * @return {boolean} Presence of bans
 */
 function getBans(id) {
-	var url = "http://ets2mp.com/index.php?page=profile&id=" + id;
-	$.get(url, function (data) {
-		if ($(data).find('.info').length == 0) {
-			$('#SaPi_ETS2MP').append($('<a/>', {"id": 'getAllBans', "href": '#getAllBans', "onclick": "getAllBans();return false"}).text(' (' + chrome.i18n.getMessage('injHaveBans') + ')'));
-			$tElement = $(data).find("#bans").find('tr');
-			
+	var url = "https://api.truckersmp.com/v2/bans/" + id;
+	$.getJSON(url, function (data) {
+        console.log(data);
+		if (data.response.length != 0) {
+			$('#SaPi_TruckersMP').append($('<a/>', {"id": 'getAllBans', "href": '#getAllBans', "onclick": "getAllBans();return false"}).text(' (' + chrome.i18n.getMessage('injHaveBans') + ')'));
 			$('#getAllBans').click(getAllBansSaPi);
 		}
 	});
-	
+
 }
 
 /**
@@ -109,7 +110,7 @@ function getMoreInfoSaPi()
 			[chrome.i18n.getMessage('injInfModal_SteamLink'),	_URL],
 			[chrome.i18n.getMessage('injInfModal_SteamID'),		_STEAMID],
 			[chrome.i18n.getMessage('injInfModal_SteamName'),	_PERSONALNAME],
-			[chrome.i18n.getMessage('injInfModal_ETS2MPID'),	JSON.id],
+			[chrome.i18n.getMessage('injInfModal_TruckersMPID'),	JSON.id],
 			[chrome.i18n.getMessage('injInfModal_ForumName'),	JSON.name],
 			[chrome.i18n.getMessage('injInfModal_JoinDate'),	JSON.joinDate],
 			[chrome.i18n.getMessage('injInfModal_ForumGroup'),	JSON.groupName],
@@ -130,8 +131,8 @@ function getMoreInfoSaPi()
 }
 
 /**
- * Add info about Steam or ETS2MP
- * 
+ * Add info about Steam or TruckersMP
+ *
  */
 function addInfo() {
 	_URL = $("#urlSaPi").val();
@@ -140,9 +141,9 @@ function addInfo() {
 		_PERSONALNAME = $("#personanameSaPi").val();
 		infoInSteam(_STEAMID);
 	}
-	else if (_URL.indexOf("ets2mp.com") != -1) {
-		_ETS2MPID = $("#idSaPi").val();
-		infoInEts2MP(_ETS2MPID);
+	else if (_URL.indexOf("truckersmp.com") != -1) {
+		_TruckersMPID = window.location.href.split('/').reverse()[0];
+		infoInTruckersMP(_TruckersMPID);
 	}
 }
 
@@ -155,31 +156,28 @@ function infoInSteam(id) {
 		$('#containerSaPi').text('')
 							.append($('<strong/>').text('STEAM ID: '))
 							.append($('<a/>', {"href": 'http://steamcommunity.com/profiles/' + id}).text(id))
-							.append(' | ')
+							.append('<br>')
 							.append(this.error ? this.descriptor :
-								$('<strong/>').text('ETS2MP ID: '))
+								$('<strong/>').text('TruckersMP ID: '))
 							.append(this.error ? '' :
-								$('<a/>', {"id": 'SaPi_ETS2MP', "href": 'http://ets2mp.com/index.php?page=profile&id=' + this.response.id})
+								$('<a/>', {"id": 'SaPi_TruckersMP', "href": 'https://truckersmp.com/user/' + this.response.id, "target": "_blank"})
 									.text(this.response.id))
-							.append(' | ')
+							.append('<br>')
 							.append($('<a/>', {"id": 'getMoreInfo', "href": '#getMoreInfo', "onclick": "getMoreInfo();return false"}).text(chrome.i18n.getMessage('injGetMoreInf')));
+        $('#getMoreInfo').click(getMoreInfoSaPi);
 		getBans(this.response.id);
-		$('#getMoreInfo').click(getMoreInfoSaPi);
 	})
 }
 
 /**
- * Function add info about player on ETS2MP page!
+ * Function add info about player on TruckersMP page!
  * append DIV-container(class "SaPi") to "thead"
  */
-function infoInEts2MP(id) {
-	$.ajax({
-	    url: "http://api.ets2mp.com/player/" + id,
-	    dataType : "text",
-	    success: function (data) {
-			steamID = data.split("{")[2].split(",")[3].split(":")[1];
-			$('.SaPiSteam').text('');
-			$('.SaPiSteam').append($('<a/>', {"href": 'http://steamcommunity.com/profiles/' + steamID, "text": 'Steam'}));
-		}
+function infoInTruckersMP(id) {
+    var url = "https://api.truckersmp.com/v2/player/" + id;
+	$.getJSON(url, function (data){
+		steamID = data.response.steamID64;
+		$('.SaPiSteam').text('');
+		$('.SaPiSteam').append($('<a/>', {"href": 'http://steamcommunity.com/profiles/' + steamID, "text": 'Steam'}));
 	});
 }

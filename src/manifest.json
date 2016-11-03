@@ -1,6 +1,6 @@
 {
 	"manifest_version": 2,
-	"version": "0.1.8",
+	"version": "1.0.0",
 	"name": "__MSG_appName__",
 	"description": "__MSG_appDesc__",
 	"default_locale": "en",
@@ -16,23 +16,19 @@
 			"storage",
 			"notifications",
 			"https://*.steamcommunity.com/*",
-			"https://*.truckersmp.com/*",
+			"https://*.truckersmp.com/*"
 	],
 	"content_scripts": [{
 		"matches": [
-				"*://steamcommunity.com/profiles/*",
-				"*://steamcommunity.com/id/*",
-				"*://steamcommunity.com//profiles/*",
-				"*://steamcommunity.com//id/*",
-				"*://steamcommunity.com//id/*",
-				"https://*.truckersmp.com/*",
+				"https://*.steamcommunity.com/profiles/*",
+				"https://*.steamcommunity.com/id/*",
+				"https://*.truckersmp.com/user/*"
 		],
 		"js": [
 				"/js/jquery-2.1.3.min.js",
 				"/js/script.js"
 		],
 		"css": ["/css/inject.css"]
-		
 	}],
 	"options_ui": {
 		"chrome_style": true,

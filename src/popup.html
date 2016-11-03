@@ -10,25 +10,22 @@
         <script type="text/javascript" src="/js/popup.js"></script>
     </head>
     <body id="popup">
-    	<div class="main">
-    		<center>
-    			<img src="./img/logo.png" width="250" />
-    			<a class="ui top right mini attached label" href="options.html">Options</a>
-    		</center>
-    	</div>
-    	<div class="ui divider"></div>
+    	<a class="ui top right attached label" href="#" id="go_to_options" data-resource="options_OptionsLink"></a>
+        <div id="main"></div>
+    	<!-- <div class="ui divider"></div> -->
+        <br>
 		<center>
-	    	<a class="ui image mini label" href="http://forum.ets2mp.com/index.php?/topic/11641-sapi-extension-for-browsers/">
+	    	<a class="ui image mini label" data-href="http://forum.ets2mp.com/index.php?/topic/11641-sapi-extension-for-browsers/" href="#">
 				<img src="/img/ets2mp.com.png">
-				ets2mp.com
+				TruckersMP
 			</a>
-			<a class="ui image mini label" href="http://ets2mp.ru/showthread.php/1046-Расширение-Chrome">
-				<img src="/img/ets2mp.ru.png">
-				ets2mp.ru
+			<a class="ui image mini label" data-href="https://bigmp.ru" href="#">
+				<img src="/img/bigmp.ru.png">
+				<span data-resource="options_HelperLink">Helper</span>
 			</a>
-			<a class="ui image mini label" href="https://github.com/jackrv/SaPi-ETS2MP-">
+			<a class="ui image mini label" data-href="https://github.com/cjmaxik/SaPi-Reborn">
 				<img src="/img/github.png">
-				github.com
+				GitHub
 			</a>
 		</center>
     </body>

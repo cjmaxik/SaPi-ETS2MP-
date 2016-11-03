@@ -1,28 +1,29 @@
 function startTimer() {
 	(function timer(){
 		if (localStorage["setting:enableTick"] == 1) {
+            setBadge('...');
 			getServerInfo(function() {
 				if (this.response[parseInt(localStorage["setting:serverID"])].online)
 					setBadge(this.response[parseInt(localStorage["setting:serverID"])].players);
 				else
-					setBadge('Offline');
+					setBadge('Off');
 			});
 		} else setBadge();
 		if (localStorage["setting:chckNewVersion"] == 1)
 			getVersion();
 		clearTimeout(timer.id);
-		var interval = parseInt(localStorage["setting:updateTime"]); 
+		var interval = parseInt(localStorage["setting:updateTime"]);
     	timer.id = setTimeout(timer, (interval == 0 ? 1 : interval) * 1000);
 	})();
 }
 
 function getVersion() {
 	$.ajax({
-	    url: "http://ets2mp.com/",
+	    url: "https://api.truckersmp.com/v2/version",
 	    success: function (data) {
 	    	try {
 		    	var sVer = localStorage['sapi:gameVersion'];
-		    	var gVer = data.split('<div class="version">')[1].split(':')[1].split('<a href')[0].trim();
+		    	var gVer = data.version;
 		    	if (gVer != undefined) {
 		    		if(sVer === undefined)
 		    			localStorage['sapi:gameVersion'] = gVer;
@@ -47,12 +48,12 @@ function getVersion() {
 function setBadge(label){
 	if (label == undefined)
 		chrome.browserAction.setBadgeText({text: ''});
-	else
-		chrome.browserAction.setBadgeText({text: label.toString()});
+    else
+        chrome.browserAction.setBadgeText({text: label.toString()});
 }
 
 function getServerInfo(callback){
-	$.getJSON('http://api.ets2mp.com/servers/', function (data) {
+	$.getJSON('https://api.truckersmp.com/v2/servers/', function (data) {
 		if (data.error == 'false') {
 			callback.call(data);
 			return true;
@@ -63,7 +64,7 @@ function getServerInfo(callback){
 	});
 }
 
-function localizePage () {
+function localizePage() {
 	$('[data-resource]').each(function() {
 		var el = $(this);
 		var resourceName = el.data('resource');
@@ -74,7 +75,7 @@ function localizePage () {
 
 chrome.notifications.onClicked.addListener(function(notificationId) {
 	if (notificationId != 'dwnl') {
-		chrome.tabs.create({url: 'http://ets2mp.com/index.php?action=getMod'});
+		chrome.tabs.create({url: 'https://truckersmp.com/download'});
 		localStorage['sapi:gameVersion'] = notificationId;
 		var opt = {
 			type: "basic",

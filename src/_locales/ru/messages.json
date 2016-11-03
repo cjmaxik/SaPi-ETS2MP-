@@ -1,18 +1,18 @@
 {
   "appName": {
-    "message": "SaPI",
+    "message": "SaPI Reborn",
     "description": "Main application name"
   },
   "appDesc": {
-    "message": "Добавляет множество информации о серверах и пользователях ETS2MP", 
+    "message": "Добавляет множество информации о серверах и пользователях TruckersMP", 
     "description":"Application description"
   },
   "appTitlePopup": {
-  	"message": "SaPi [ETS2MP]",
+  	"message": "SaPi [TruckersMP]",
   	"description": "Title for popup icon in browser"
   },
   "optSecShort": {
-  	"message": "сек.",
+  	"message": " сек.",
   	"description": "Short literal of seconds"
   },
   "optLabelOnline": {
@@ -20,7 +20,7 @@
   	"description": "Label for enable|disable timer"
   },
   "optLabelServer": {
-  	"message": "На следующем сервере: ",
+  	"message": "Выберите нужный сервер: ",
   	"description": "Label for select server"
   },
   "optLabelTime": {
@@ -28,12 +28,21 @@
   	"description": "Label for range of time update"
   },
   "optSaveButton": {
-  	"message": "Сохранить!",
-  	"description": "Name of button save"
+    "message": "Сохранить!",
+    "description": "Name of button save"
+  },
+  "optSavingScreen": {
+  	"message": "Сохраняю..."
+  },
+  "optLoadingScreen": {
+    "message": "Загружаю..."
   },
   "optNewVer": {
     "message": "Проверять обновления игры",
     "description": "Label for enable|disable to check a new version"
+  },
+  "optSortServers": {
+    "message": "Сортировать серверы по кол-ву игроков"
   },
   "popupStatsOfServers": {
   	"message": "Статистика серверов",
@@ -83,8 +92,8 @@
     "message": "Имя (Steam)",
     "description": "Row header on full info modal"
   },
-  "injInfModal_ETS2MPID": {
-    "message": "ETS2MP ID",
+  "injInfModal_TruckersMPID": {
+    "message": "TruckersMP ID",
     "description": "Row header on full info modal"
   },
   "injInfModal_ForumName": {
@@ -118,5 +127,12 @@
   "ntfk_DwnldVersionContent": {
     "message": "Загрузка версии: {0} началась\nИщи те скачанный файл в папке загрузок!",
     "description": "Main content in notifocation of download new version. {0} - version"
+  },
+
+  "options_OptionsLink": {
+    "message": "Настройки"
+  },
+  "options_HelperLink": {
+    "message": "Помогатор"
   }
 }
