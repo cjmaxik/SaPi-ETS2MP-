@@ -42,5 +42,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-*.sublime-*
+*.sublime-project
+*.sublime-workspace
 *.zip
