@@ -28,8 +28,8 @@ $(document).ready(function() {
 			var item = $('<div/>', {"class": 'ui segment'})
 				.append($('<div/>', {"class": 'ui top '+ style +' active attached progress', "data-percent": percent})
 					.append($('<div/>', {"class": 'bar'})))
-				.append($('<span/>').append($('<strong/>').text(this.response[index].name))
-					.append(this.response[index].online ? ": {0} / {1} [+ {2}]".f(this.response[index].players, this.response[index].maxplayers, this.response[index].queue) : ": Offline"))
+				.append($('<span/>').append($('<strong/>').text(this.response[index].game + ' ' + this.response[index].name))
+					.append(this.response[index].online ? ": {0} / {1} (+ {2})".f(this.response[index].players, this.response[index].maxplayers, this.response[index].queue) : ": Offline"))
 				.append($('<div/>', {"class": 'ui bottom '+ style +' active attached progress', "data-percent": percent})
 					.append($('<div/>', {"class": 'bar'})));
 			$('#main').append(item);

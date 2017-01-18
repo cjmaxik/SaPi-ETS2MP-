@@ -57,10 +57,10 @@ function restore_options() {
 		var id = 0;
 		for(var index in this.response) {
 			if (localStorage['setting:serverID'] == id)
-				$('.text').text(this.response[index].name);
-			var option = $('<option/>', { 'value': id}).text(this.response[index].name);
+				$('.text').text(this.response[index].game + ' ' + this.response[index].name);
+			var option = $('<option/>', { 'value': id }).text(this.response[index].game + ' ' + this.response[index].name);
 			if (!this.response[index].online)
-				option.text(this.response[index].name + " (Offline").prop('disabled', true);
+				option.text(this.response[index].game + ' ' + this.response[index].name).prop('disabled', true);
 			$('#servers').append(option);
 			id++;
 		}

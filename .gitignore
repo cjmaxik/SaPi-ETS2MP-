@@ -45,3 +45,7 @@ Temporary Items
 *.sublime-project
 *.sublime-workspace
 *.zip
+
+build/
+dist/
+node_modules/

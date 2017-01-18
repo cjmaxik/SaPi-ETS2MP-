@@ -4,7 +4,7 @@
     "description": "Main application name"
   },
   "appDesc": {
-    "message": "Add more info about TruckersMP users and servers", 
+    "message": "Add more info about TruckersMP users and servers",
     "description":"Application description"
   },
   "appTitlePopup": {
