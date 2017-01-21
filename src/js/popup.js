@@ -1,7 +1,13 @@
 $(document).ready(function() {
 
-    getServerInfo(function() {
+    getAllData(function () {
+        $('#mp').text(this.name);
+        // $('#launcher').text(this.name);
+        $('#ets2').text(this.supported_game_version);
+        $('#ats').text(this.supported_ats_game_version);
+    })
 
+    getServerInfo(function() {
         if (localStorage["setting:sortServers"] == 1) {
             this.response.sort(function(a, b) {
                 return a.players - b.players
@@ -25,23 +31,24 @@ $(document).ready(function() {
                 style = 'white';
             };
 
-			var item = $('<div/>', {"class": 'ui segment'})
-				.append($('<div/>', {"class": 'ui top '+ style +' active attached progress', "data-percent": percent})
-					.append($('<div/>', {"class": 'bar'})))
-				.append($('<span/>').append($('<strong/>').text(this.response[index].game + ' ' + this.response[index].name))
-					.append(this.response[index].online ? ": {0} / {1} (+ {2})".f(this.response[index].players, this.response[index].maxplayers, this.response[index].queue) : ": Offline"))
-				.append($('<div/>', {"class": 'ui bottom '+ style +' active attached progress', "data-percent": percent})
-					.append($('<div/>', {"class": 'bar'})));
-			$('#main').append(item);
-		}
-		$('.progress').progress();
-	});
+            var item = $('<div/>', {"class": 'ui segment'})
+                .append($('<div/>', {"class": 'ui top '+ style +' active attached progress', "data-percent": percent})
+                    .append($('<div/>', {"class": 'bar'})))
+                .append($('<span/>').append($('<strong/>').text(this.response[index].game + ' ' + this.response[index].name))
+                    .append(this.response[index].online ? ": {0} / {1} (+ {2})".f(this.response[index].players, this.response[index].maxplayers, this.response[index].queue) : ": Offline"))
+                .append($('<div/>', {"class": 'ui bottom '+ style +' active attached progress', "data-percent": percent})
+                    .append($('<div/>', {"class": 'bar'})));
+            $('#main').append(item);
+
+        }
+        $('.progress').progress();
+    });
 
 	localizePage();
 
 	$('a').click(function(event) {
         if ($(this).data('href')) {
-		  chrome.tabs.create({url: $(this).data('href')});
+            chrome.tabs.create({url: $(this).data('href')});
         };
     });
 

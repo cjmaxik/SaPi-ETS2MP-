@@ -1,6 +1,8 @@
 html {
 	height: auto;
+    min-height: 700px;
 }
+
 #popup {
 	padding: 5px 15px 15px;
 }

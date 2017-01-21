@@ -45,6 +45,13 @@ function getVersion() {
 	});
 }
 
+function getAllData(callback) {
+    $.getJSON('https://api.truckersmp.com/v2/version/', function (data) {
+        callback.call(data);
+        return true;
+    });
+}
+
 function setBadge(label){
 	if (label == undefined)
 		chrome.browserAction.setBadgeText({text: ''});
